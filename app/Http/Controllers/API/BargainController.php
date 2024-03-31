@@ -8,8 +8,8 @@ class BargainController extends Controller
 {
   public function search(){
     $_url = 'https://webservices.cert.platform.sabre.com';
-    $soapUser = '2j0le31cfij3jeqz';
-    $soapPassword = 'mn2M0HaW';
+    $soapUser = '';
+    $soapPassword = '';
     $soapToken = 'T1RLAQK0GvXjUEBOMuAq/UL/qTlOTO0ApfIktbhhcB6/WLYBCxC3pdn7ROs2sa6n170TjYbJAADg2W4wT75kadxlfnFztqTxFIKPLKAhB//2lIE37dQ+AX9OWxPNy4knHUSzquYVvXepzdL7kPAntOfUfAtxb0FzZIUxjMS4UPF7mN4rx4YONblhOWJHDCuVcEVUTYYY3idkPaNJZ++H6o0YDTS9Uwpu51dIBF2x9FuSHsB4E3jg7G6NfENKS1iQIi03yEyQFjTMSGnna7Ytk7uF45qUWWMomL0oezzIBI5ItG4rXSfPJpSX3xeKcT9M8DnkTrJ9iHZjvd4sAwDFkI6GEXurM8fSiwICRJpgbRolIiJGf2mfYaE*';
     $soapEnvelope = '<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2020/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2020/XMLSchema">
             <SOAP-ENV:Header>
