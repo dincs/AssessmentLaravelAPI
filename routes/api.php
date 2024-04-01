@@ -11,8 +11,15 @@ Route::controller(RegisterController::class)->group(function(){
 });
 
 Route::controller(BargainController::class)->group(function(){
-    Route::post('search', 'search');
+    Route::get('search', 'search');
 });
+
+// Route::middleware(['auth:sanctum'])->group(function () {
+//     Route::controller(BargainController::class)->group(function(){
+//         Route::get('search', 'search');
+//     });
+// });
+
 
 Route::get('/user', function (Request $request) {
     return $request->user();
